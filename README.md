@@ -27,7 +27,7 @@ MQTT CHAT Android is an android library that provides full chat functionality an
 - Offline audio and video calls
 - Contacts and messages stored in SQlite DB.
 - Presence & messages webhooks.
-<br><br>And much more ...
+
 
 ## Documentation
 __For more informations please read the complete <a href="https://doc.mqtt-chat.com/mqttchat-android/integration">MQTT chat android documentation</a>.__
