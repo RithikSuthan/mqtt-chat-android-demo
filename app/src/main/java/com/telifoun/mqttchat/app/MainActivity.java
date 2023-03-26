@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.demo_activity_main);
 
         welcom =(TextView) findViewById(R.id.welcom);
-        welcom.setText("Lounch Chat");
+        welcom.setText("Launch Chat");
 
 
         lounchFragment=(Button) findViewById(R.id.lounchMqttchatFragment);
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                        }
                    });
                }catch(Exception ex){
-                  Toast.makeText(getApplicationContext(),"MQTTCHAT lounch error: "+ex.getMessage(), Toast.LENGTH_LONG).show();
+                  Toast.makeText(getApplicationContext(),"MQTTCHAT launch error: "+ex.getMessage(), Toast.LENGTH_LONG).show();
               }
            }
        });

@@ -42,6 +42,8 @@ public class mApplication  extends MultiDexApplication {
                 .domain("mqtt-chat.com")
                 .appId("mqttchat-87226030")
                 .appSecret("mqttchat-56vvfbvnpe0uvuid")
+//                .appId("mqttchat-jEKCEFNd")
+//                .appSecret("mqttchat-coUwN12jOwpWpl6n")
                 .debugMode(true)
                 .useFriends(false)
                 .build();
